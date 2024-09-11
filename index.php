@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <form action="process.php" method="post">
+        <form action="mail.php" method="post">
             <input type="text" class="form-control mt-4" name="fullname" id="" placeholder="Fullname">
             <input type="email" class="form-control mt-4" name="email" id="" placeholder="Email">
             <input type="subject" class="form-control mt-4" name="subject" id="" placeholder="subject">
