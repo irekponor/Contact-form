@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = $_POST["subject"];
     $message = $_POST["message"];
     $to = "emmanuelirekponor86@gmail.com";
-    $headers = "Form $email";
+    $headers = "From: $email";
     if (mail($to, $subject, $message, $headers)) {
         echo "Email sucessfully sent!";
     } else {
