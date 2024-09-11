@@ -15,7 +15,7 @@
             <input type="text" class="form-control mt-4" name="fullname" id="" placeholder="Fullname">
             <input type="email" class="form-control mt-4" name="email" id="" placeholder="Email">
             <input type="subject" class="form-control mt-4" name="subject" id="" placeholder="subject">
-            <textarea name="message" id="" cols="30" placeholder="Message"></textarea>
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
             <input type="submit" class="btn btn-primary mt-4" value="Send" name="submit">
         </form>
     </div>
